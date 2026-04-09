@@ -1,0 +1,9 @@
+{
+  "name": "matt-skills",
+  "version": "1.0.0",
+  "description": "Matt's skill plugin — auto-triggered behaviors for Alif's AI companion",
+  "author": {
+    "name": "Alif",
+    "email": ""
+  }
+}

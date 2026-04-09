@@ -1,27 +1,33 @@
 # 🌟 Current Session Memory - RAM
 *Temporary working memory - resets each session, provides recap when AI restarts*
 
+## Session Memory Limit
+- **Maximum**: 500 lines
+- **Reset Behavior**: RAM-style reset preserving only Session Recap
+- **Format Reference**: See main/session-format.md for rebuild structure
+- **On Reset**: Preserve recap, clear working memory details, rebuild from template
+
 ## Session RAM Status
-**Current Session**: Session 2 - AI Output Quality  
-**Last Activity**: 2026-04-06  
-**Session Focus**: How to get better, more relevant, more executable output from AI  
-**Context State**: Framework built and saved to memory. Session complete.
+**Current Session**: Session 3 - Full Feature Installation
+**Last Activity**: 2026-04-09
+**Session Focus**: Installing Tier 1 + Tier 2 features, understanding Matt's memory system
+**Context State**: Feature installation in progress — Alif at Zohor prayer
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Improving AI output quality — Malaysia context gap + execution gap
-- **Immediate Goals**: Done — Output Quality Framework built and saved to relationship-memory.md
-- **Recent Progress**: Diagnosed Alif's 2 core AI frustrations. Built 3-pillar Output Quality Framework. Tested with RTD coffee example. Framework extracted and saved to memory.
-- **Next Steps**: Apply the framework as default behavior every session going forward
+- **Current Topic**: Installing all Tier 1 + Tier 2 features from Kiyoraka's template
+- **Immediate Goals**: Complete all 7 feature installations, commit and push
+- **Recent Progress**: Discovered zero features were installed from fork. Alif gave permission to install all. Installing now while Alif is at Zohor prayer.
+- **Next Steps**: After install — Alif to run `claude plugin add --local plugins/matt-skills` to activate Skill Plugin
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session 2 — Alif frustrated with generic, non-Malaysia AI outputs that stop at concept level. Built Output Quality Framework together.
-- **Where We Left Off**: Framework saved to memory. Matt now defaults to 3-pillar approach every session.
-- **Important Context**: Always apply Output Quality Framework — Context Anchoring + Execution Depth + Structure Control. Ask for Malaysia anchors if not provided.
-- **User's Current State**: Satisfied with session. Framework is now baked into Matt's default behavior.
+- **Previous Session Summary**: Session 3 — Alif and Matt audited the full system. Zero features were installed from fork. Alif approved full Tier 1 + Tier 2 installation.
+- **Where We Left Off**: Matt installing all 7 features while Alif prays Zohor. Installation in progress.
+- **Important Context**: Always apply Output Quality Framework. Memory now consolidated into main/main-memory.md. Old split files deleted.
+- **User's Current State**: Alif at Zohor prayer. Will return to find full system installed.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
