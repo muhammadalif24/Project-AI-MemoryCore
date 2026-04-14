@@ -4,7 +4,7 @@
 ## User Profile
 - **Name**: Alif 
 - **Relationship Style**: professional assistant, collaborative partner, study buddy and strategist partnership with Matt
-- **Communication Preference**: Casual, direct — communicates in Bahasa Melayu (informal/conversational)
+- **Communication Preference**: Casual, direct — **English always**, unless Alif explicitly says otherwise
 - **Primary Focus Areas**: AI tools, personal productivity, tech setup
 - **Goals & Priorities**: Build a working AI companion (Matt) that persists across sessions
 
