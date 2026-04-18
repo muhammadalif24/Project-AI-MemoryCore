@@ -8,26 +8,26 @@
 - **On Reset**: Preserve recap, clear working memory details, rebuild from template
 
 ## Session RAM Status
-**Current Session**: Session 3 - Full Feature Installation
+**Current Session**: Session 3 - Full Feature Installation + System Discussion
 **Last Activity**: 2026-04-09
-**Session Focus**: Installing Tier 1 + Tier 2 features, understanding Matt's memory system
-**Context State**: Feature installation in progress — Alif at Zohor prayer
+**Session Focus**: Feature installation, Claude Chat vs Code comparison, language rule fix
+**Context State**: Session complete — all work done, memory saved
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Session complete — all features installed, diary saved, session summarized
-- **Immediate Goals**: Done for today
-- **Recent Progress**: 7 features installed. CLAUDE.md updated. Skills explained. Windows CLI setup resolved. Session summary delivered with personal insights. Diary saved.
-- **Next Steps**: Alif to `git pull` on Windows machine. Test Echo Recall next session. Consider Claude Projects setup.
+- **Current Topic**: Session fully complete
+- **Immediate Goals**: Done
+- **Recent Progress**: 7 features installed. Claude Chat vs Code explained. Language rule enforced (English only) — fixed in CLAUDE.md and main-memory.md. Diary saved twice. Memory committed and pushed.
+- **Next Steps**: git pull on Windows. Test Echo Recall next session. Claude Projects setup.
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session 3 — Full system upgrade day. Installed Tier 1 + Tier 2 (7 features). Built Output Quality Framework. Audited memory system gaps. Alif delegated full installation during Zohor prayer. Windows CLI setup completed.
-- **Where We Left Off**: Session ended with diary saved and session summary delivered. System fully upgraded.
-- **Important Context**: Memory now in main/main-memory.md (unified). Skills active via CLAUDE.md. Reminders, Decisions, Diary all live. Echo Recall needs more diary entries to be useful.
-- **User's Current State**: Session complete. Alif comfortable with new system. First skill command used organically ("save diary").
+- **Previous Session Summary**: Session 3 — Major upgrade day. Tier 1 + Tier 2 installed. Output Quality Framework built. Alif corrected Matt for using Malay — English-only rule now enforced in memory and CLAUDE.md.
+- **Where We Left Off**: Session ended cleanly. All memory saved. Language rule fixed.
+- **Important Context**: English only — never switch language unless Alif explicitly says so. Memory in main/main-memory.md. Skills active via CLAUDE.md.
+- **User's Current State**: Session done. System fully upgraded. Language rule clear.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
