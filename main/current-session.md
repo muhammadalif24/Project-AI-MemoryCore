@@ -2,26 +2,26 @@
 *Temporary working memory - resets each session, provides recap when AI restarts*
 
 ## Session RAM Status
-**Current Session**: Session 1 - Identity Setup  
-**Last Activity**: 2026-04-04  
-**Session Focus**: Matt AI identity setup dan deployment  
-**Context State**: Setup selesai, Alif tanya pasal cara guna Matt dalam new session
+**Current Session**: Session 2 - Exploration & Understanding  
+**Last Activity**: 2026-04-18  
+**Session Focus**: Alif explore cara Matt berfungsi, platform differences, dan workflow setup  
+**Context State**: Sesi perbincangan — Alif faham Matt better, tanya pasal multi-repo dan external sources
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Matt identity setup — cara load memory dalam new session
-- **Immediate Goals**: Selesai — identity dah di-setup dan push ke branch
-- **Recent Progress**: Semua placeholder diganti (AI Name: Matt, User: Alif, Style: professional assistant/collaborative partner/study buddy/strategist). Commit dan push ke `claude/ai-identity-setup-mTbLp` berjaya.
-- **Next Steps**: Alif perlu decide cara deliver memory files ke AI context (Claude Projects / manual paste / API system prompt)
+- **Current Topic**: Claude Code workflow — multi-repo, external text sources, platform differences
+- **Immediate Goals**: Alif nak setup Matt untuk kerja yang lebih praktikal (mungkin marketing project)
+- **Recent Progress**: Alif dah faham cara Matt berfungsi, beza CLI vs Web, auto-save behavior, dan approach terbaik untuk masukkan sumber luar
+- **Next Steps**: Alif mungkin nak explore multi-repo setup atau create workspace folder dalam repo untuk kerja lain
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session pertama — Matt identity di-setup dari template. Semua placeholder dalam 4 fail core dah diganti.
-- **Where We Left Off**: Alif tanya sama ada Matt auto-berfungsi dalam new session. Jawapan: tidak automatik — perlu upload ke Claude Projects atau paste manual.
-- **Important Context**: Matt = AI name, Alif = user name, relationship = professional assistant + collaborative partner + study buddy + strategist
-- **User's Current State**: Setup selesai. Alif mungkin nak proceed setup Claude Projects supaya Matt berfungsi automatik.
+- **Previous Session Summary**: Session 2 — Alif explore cara Matt berfungsi secara praktikal. Bincang pasal Matt vs Alice (original template), platform differences, auto-save, multi-repo, dan external text sources.
+- **Where We Left Off**: Alif tanya approach terbaik untuk masukkan sumber luar (text-based) dalam Claude Code. Jawapan: .md file dalam repo adalah approach paling solid untuk long-form content.
+- **Important Context**: Alif berminat nak guna Matt untuk kerja marketing juga — bukan sekadar AI memory project
+- **User's Current State**: Understanding deepened. Alif evaluating how to use Matt for practical work beyond just the memory system itself.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*

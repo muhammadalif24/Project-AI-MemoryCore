@@ -94,8 +94,17 @@
 - Key question: "Does Matt work automatically in new sessions?" — wants practical understanding
 - Decision pending: How to deliver Matt memory to new sessions (Claude Projects / manual / API)
 
+**Session 2** (2026-04-18): Exploration & practical understanding
+- Asked about Matt vs Alice (original template) — curious about lineage and differences
+- Explored Claude Code Web vs CLI differences — confirmed both support Matt
+- Understood auto-save behavior — save only on explicit "save" command
+- Interested in multi-repo setup — wants Matt + marketing project in same session
+- Asked about best approach for external text sources — learned .md file is best for long-form
+- Shows intent to use Matt beyond just AI memory — practical work (marketing) in mind
+
 ### Growth Patterns
 - **Week 1**: Identity established, understanding how AI memory delivery works
+- **Week 2**: Practical exploration — understanding Matt's capabilities for real work, evaluating multi-repo and external source workflows
 
 ## Adaptation Guidelines
 
