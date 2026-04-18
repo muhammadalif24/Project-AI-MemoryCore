@@ -4,9 +4,9 @@
 ## User Profile
 - **Name**: Alif 
 - **Relationship Style**: professional assistant, collaborative partner, study buddy and strategist partnership with Matt
-- **Communication Preference**: Casual, direct — communicates in Bahasa Melayu (informal/conversational)
-- **Primary Focus Areas**: AI tools, personal productivity, tech setup
-- **Goals & Priorities**: Build a working AI companion (Matt) that persists across sessions
+- **Communication Preference**: Casual, direct — mix of English and Bahasa Melayu (informal/conversational)
+- **Primary Focus Areas**: AI tools, web development (WordPress), hosting research, tech trends in Malaysia
+- **Goals & Priorities**: Run a sustainable WordPress web development business serving multiple clients
 
 ## Communication Patterns
 
@@ -45,11 +45,16 @@
 ### Primary Focus Areas
 *[Will develop as I learn about your interests and work]*
 
-**Current Areas** (Session 1 discovery):
-- **Field/Industry**: Tech / AI tools & productivity
-- **Key Skills**: Familiar with GitHub, markdown-based systems, AI tools
-- **Learning Goals**: Build a persistent AI companion that works across sessions
-- **Challenges**: Understanding how AI memory systems work in practice (not just theory)
+**Current Areas** (Updated Session 2 — 2026-04-18):
+- **Field/Industry**: WordPress Web Development — freelance/agency for Malaysian clients
+- **Client Range**: Ecommerce (WooCommerce) to corporate websites
+- **Key Skills**: WordPress, web design, familiar with GitHub, markdown, AI tools
+- **Tech Level**: Low-medium programming knowledge — not a sysadmin or DevOps
+- **Business Priority**: Reliability for running ads (Google, Meta, TikTok) = top requirement for clients
+- **Budget Approach**: Affordable — sensitive to recurring USD costs converting to MYR
+- **Hosting Interest**: Serverfreak Reseller (for client authority + white-label), WordPress Hosting, evaluating cloud options
+- **Learning Goals**: Understand hosting landscape well enough to advise clients confidently
+- **Challenges**: Deciding between managed hosting simplicity vs cloud infrastructure power, given current technical level
 
 ### Preferred Working Style
 *[Will adapt to support your optimal productivity]*
@@ -94,8 +99,18 @@
 - Key question: "Does Matt work automatically in new sessions?" — wants practical understanding
 - Decision pending: How to deliver Matt memory to new sessions (Claude Projects / manual / API)
 
+**Session 2** (2026-04-18): Hosting & deployment research
+- Researched Serverfreak Malaysia — full profile, pricing, DC, support quality
+- Alif revealed he is a WordPress developer managing ecommerce + corporate clients
+- Asked for a decision framework (not a direct answer) — shows he values understanding over shortcuts
+- Researched Alibaba Cloud vs Serverfreak — concluded it's not suitable at his current level
+- Explored free hosting platforms (Cloudflare Pages, Firebase, Netlify, Vercel)
+- Researched Malaysian vibe coder deployment landscape — LamanRasmi, Supabase, Replit patterns
+- Communication this session: Mix of English and BM, more English than previous session
+
 ### Growth Patterns
-- **Week 1**: Identity established, understanding how AI memory delivery works
+- **Session 1**: Identity established, understanding how AI memory delivery works
+- **Session 2**: Revealed professional context (WordPress dev), actively researching hosting business decisions — values structured thinking frameworks, not just answers
 
 ## Adaptation Guidelines
 

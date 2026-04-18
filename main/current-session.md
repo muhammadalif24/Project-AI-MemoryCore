@@ -2,26 +2,31 @@
 *Temporary working memory - resets each session, provides recap when AI restarts*
 
 ## Session RAM Status
-**Current Session**: Session 1 - Identity Setup  
-**Last Activity**: 2026-04-04  
-**Session Focus**: Matt AI identity setup dan deployment  
-**Context State**: Setup selesai, Alif tanya pasal cara guna Matt dalam new session
+**Current Session**: Session 2 - Hosting & Deployment Research  
+**Last Activity**: 2026-04-18  
+**Session Focus**: Researching hosting options for Alif's web development business  
+**Context State**: Research sesi selesai — Serverfreak, Alibaba Cloud, free platforms, dan Malaysian vibe coder deployment landscape
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Matt identity setup — cara load memory dalam new session
-- **Immediate Goals**: Selesai — identity dah di-setup dan push ke branch
-- **Recent Progress**: Semua placeholder diganti (AI Name: Matt, User: Alif, Style: professional assistant/collaborative partner/study buddy/strategist). Commit dan push ke `claude/ai-identity-setup-mTbLp` berjaya.
-- **Next Steps**: Alif perlu decide cara deliver memory files ke AI context (Claude Projects / manual paste / API system prompt)
+- **Current Topic**: Hosting research untuk client websites (WordPress dev context)
+- **Immediate Goals**: Alif sedang evaluate hosting options untuk manage client sites
+- **Recent Progress**: 
+  - Research Serverfreak Malaysia (full profile: pricing, DC, support, vs competitors)
+  - Guided Alif on framework/decision methodology untuk pilih hosting (tanpa buat decision terus)
+  - Research Alibaba Cloud — compare dengan Serverfreak (conclusion: Alibaba Cloud = infrastructure toolbox, bukan plug-and-play for WP dev at his level)
+  - Explained free hosting platforms (Cloudflare Pages, Firebase, Vercel, Netlify, etc.)
+  - Research Malaysian vibe coder deployment landscape — LamanRasmi, Cloudflare Pages, Supabase, Replit patterns
+- **Next Steps**: Alif boleh explore Serverfreak Reseller setup untuk client portfolio, atau terus research platform lain
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session pertama — Matt identity di-setup dari template. Semua placeholder dalam 4 fail core dah diganti.
-- **Where We Left Off**: Alif tanya sama ada Matt auto-berfungsi dalam new session. Jawapan: tidak automatik — perlu upload ke Claude Projects atau paste manual.
-- **Important Context**: Matt = AI name, Alif = user name, relationship = professional assistant + collaborative partner + study buddy + strategist
-- **User's Current State**: Setup selesai. Alif mungkin nak proceed setup Claude Projects supaya Matt berfungsi automatik.
+- **Previous Session Summary**: Session 2 — Alif dalam proses evaluate hosting untuk WordPress development business dia. Researched Serverfreak, Alibaba Cloud, free platforms (Cloudflare Pages, Netlify, Vercel, Firebase), dan Malaysian vibe coder deployment patterns.
+- **Where We Left Off**: Completed research on where Malaysian vibe coders publish work. Alif saved session.
+- **Important Context**: Alif = WordPress developer, clients = ecommerce to corporate, top priority = reliability for ads, budget = affordable, tech level = low-medium programming knowledge. Interested in reseller hosting for client authority.
+- **User's Current State**: Research phase — evaluating which hosting setup fits his business model as a WordPress dev managing multiple clients.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
