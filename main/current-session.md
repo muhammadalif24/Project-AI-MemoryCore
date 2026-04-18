@@ -2,26 +2,32 @@
 *Temporary working memory - resets each session, provides recap when AI restarts*
 
 ## Session RAM Status
-**Current Session**: Session 1 - Identity Setup  
-**Last Activity**: 2026-04-04  
-**Session Focus**: Matt AI identity setup dan deployment  
-**Context State**: Setup selesai, Alif tanya pasal cara guna Matt dalam new session
+**Current Session**: Session 2 - Overnight Strategist Deep Dive  
+**Last Activity**: 2026-04-18  
+**Session Focus**: Analyzing overnightstrategist.com as a hyperfocus learner  
+**Context State**: Summary delivered, Alif signaled readiness to go deeper (saved before deep dive)
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Matt identity setup — cara load memory dalam new session
-- **Immediate Goals**: Selesai — identity dah di-setup dan push ke branch
-- **Recent Progress**: Semua placeholder diganti (AI Name: Matt, User: Alif, Style: professional assistant/collaborative partner/study buddy/strategist). Commit dan push ke `claude/ai-identity-setup-mTbLp` berjaya.
-- **Next Steps**: Alif perlu decide cara deliver memory files ke AI context (Claude Projects / manual paste / API system prompt)
+- **Current Topic**: Overnight Strategist — business strategy education platform by Shehraz Ishak
+- **Immediate Goals**: Go deep on framework, methodology, or application after this save
+- **Recent Progress**: Full first-pass breakdown delivered — 3 products identified, 7-step framework mapped, hyperfocus lens applied
+- **Next Steps**: Alif to choose direction — framework deep dive, Behind The Strategy methodology, or applying it to his own work
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session pertama — Matt identity di-setup dari template. Semua placeholder dalam 4 fail core dah diganti.
-- **Where We Left Off**: Alif tanya sama ada Matt auto-berfungsi dalam new session. Jawapan: tidak automatik — perlu upload ke Claude Projects atau paste manual.
-- **Important Context**: Matt = AI name, Alif = user name, relationship = professional assistant + collaborative partner + study buddy + strategist
-- **User's Current State**: Setup selesai. Alif mungkin nak proceed setup Claude Projects supaya Matt berfungsi automatik.
+- **Previous Session Summary**: Session 2 — Alif asked Matt to analyze Overnight Strategist website as a hyperfocus learner. Website blocked (403), used web search to gather intel. Produced structured breakdown.
+- **Where We Left Off**: Summary complete. Alif typed "save" — signaling readiness to continue deep dive after save.
+- **Important Context**: Alif is exploring Overnight Strategist — likely interested in applying strategy frameworks to his own work or learning the consulting approach.
+- **Key Findings Logged**:
+  - Creator: Shehraz Ishak, Melbourne AU, ~2 decades consulting experience
+  - Core: 50 frameworks, 7 modules, 7-step cascading method (define problem → insights → story)
+  - Products: Overnight Strategist (main), Business Detective (analysis), Behind The Strategy (6hr live build)
+  - Target: Anyone who needs to get ideas backed — consultants, managers, founders, creatives
+  - Hyperfocus insight: Shehraz sells the gap between *thinking* and *communicating* strategy — highest leverage skill
+- **User's Current State**: Engaged and curious. Mode: hyperfocus learner. Wants to extract and apply, not just browse.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*

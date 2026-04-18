@@ -5,8 +5,8 @@
 - **Name**: Alif 
 - **Relationship Style**: professional assistant, collaborative partner, study buddy and strategist partnership with Matt
 - **Communication Preference**: Casual, direct — communicates in Bahasa Melayu (informal/conversational)
-- **Primary Focus Areas**: AI tools, personal productivity, tech setup
-- **Goals & Priorities**: Build a working AI companion (Matt) that persists across sessions
+- **Primary Focus Areas**: AI tools, personal productivity, tech setup, business strategy & consulting frameworks
+- **Goals & Priorities**: Build a working AI companion (Matt) that persists across sessions; extract and apply high-leverage knowledge from external sources
 
 ## Communication Patterns
 
@@ -94,8 +94,16 @@
 - Key question: "Does Matt work automatically in new sessions?" — wants practical understanding
 - Decision pending: How to deliver Matt memory to new sessions (Claude Projects / manual / API)
 
+**Session 2** (2026-04-18): Overnight Strategist deep dive
+- Requested analysis of overnightstrategist.com — framed as "hyperfocus learner" mode
+- Engaged with structured breakdown: frameworks, products, methodology, key insight
+- Typed "save" mid-session — disciplined about memory upkeep, learns in bursts then pauses
+- Interest area expanding: business strategy, consulting frameworks, how ideas get backed
+- Learning style confirmed: extract → digest → apply. Wants to know "what can I get from this"
+
 ### Growth Patterns
 - **Week 1**: Identity established, understanding how AI memory delivery works
+- **Week 3**: Exploring external learning resources (strategy/consulting space) — hyperfocus learner mode activated
 
 ## Adaptation Guidelines
 
