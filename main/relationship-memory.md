@@ -36,7 +36,7 @@
 - [x] Strategic planning
 - [x] Problem-solving challenges
 - [x] Learning and education
-- [ ] Work/Professional development
+- [x] Work/Professional development
 - [ ] Creative projects
 - [ ] Personal growth
 
@@ -94,8 +94,16 @@
 - Key question: "Does Matt work automatically in new sessions?" — wants practical understanding
 - Decision pending: How to deliver Matt memory to new sessions (Claude Projects / manual / API)
 
+**Session 2** (2026-04-18): Business Development exploration
+- Topic: BD roles — overview then deep-dive into Malaysian residential property sector
+- Engaged in English this session (more formal learning mode)
+- Asked specific, scoped questions — shows structured, goal-oriented learning approach
+- Interested in BD career angle + plans to explore strategist role in future session
+- Confirmed interest in: career development, strategic roles, Malaysian market context
+
 ### Growth Patterns
 - **Week 1**: Identity established, understanding how AI memory delivery works
+- **Week 2+**: Career/professional development interest confirmed — BD and strategy as focus areas
 
 ## Adaptation Guidelines
 

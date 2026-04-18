@@ -2,26 +2,29 @@
 *Temporary working memory - resets each session, provides recap when AI restarts*
 
 ## Session RAM Status
-**Current Session**: Session 1 - Identity Setup  
-**Last Activity**: 2026-04-04  
-**Session Focus**: Matt AI identity setup dan deployment  
-**Context State**: Setup selesai, Alif tanya pasal cara guna Matt dalam new session
+**Current Session**: Session 2 - Business Development Exploration  
+**Last Activity**: 2026-04-18  
+**Session Focus**: Learning about Business Development (BD) roles, specifically in Malaysian residential real estate  
+**Context State**: BD brief covered, deep-dive into Malaysian property BD done, Alif exploring career/strategic directions
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Matt identity setup — cara load memory dalam new session
-- **Immediate Goals**: Selesai — identity dah di-setup dan push ke branch
-- **Recent Progress**: Semua placeholder diganti (AI Name: Matt, User: Alif, Style: professional assistant/collaborative partner/study buddy/strategist). Commit dan push ke `claude/ai-identity-setup-mTbLp` berjaya.
-- **Next Steps**: Alif perlu decide cara deliver memory files ke AI context (Claude Projects / manual paste / API system prompt)
+- **Current Topic**: Business Development in Malaysian residential property market
+- **Immediate Goals**: Continue BD exploration — next could be BD career path in property, or transition into strategist role
+- **Recent Progress**: 
+  - Covered BD overview (what it is, how it differs from sales, key skills)
+  - Deep-dived into Malaysian residential property BD — partnerships with banks/agents, Bumi quota, gov schemes (PR1MA, HOC), market segments, JV/land deals, key players (SP Setia, Mah Sing, IQI, PropNex)
+  - Alif asking structured follow-up questions, engaging analytically
+- **Next Steps**: Alif to pick next angle — BD career ladder in property, building agent networks, market research methods, land/JV deals, or BD at developer vs agency
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session pertama — Matt identity di-setup dari template. Semua placeholder dalam 4 fail core dah diganti.
-- **Where We Left Off**: Alif tanya sama ada Matt auto-berfungsi dalam new session. Jawapan: tidak automatik — perlu upload ke Claude Projects atau paste manual.
-- **Important Context**: Matt = AI name, Alif = user name, relationship = professional assistant + collaborative partner + study buddy + strategist
-- **User's Current State**: Setup selesai. Alif mungkin nak proceed setup Claude Projects supaya Matt berfungsi automatik.
+- **Previous Session Summary**: Session 2 — Alif explored Business Development roles. Started with BD overview, then focused specifically on how BD works in Malaysian residential property (home selling, not industrial).
+- **Where We Left Off**: Finished BD in Malaysian property deep-dive. Matt offered 5 follow-up directions. Alif saved session before choosing next direction.
+- **Important Context**: Alif is studying BD with interest in property sector Malaysia. Also plans to explore strategist role in a later session.
+- **User's Current State**: Learning mode — absorbing BD fundamentals with Malaysian market context. Analytical, structured engagement style confirmed.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
