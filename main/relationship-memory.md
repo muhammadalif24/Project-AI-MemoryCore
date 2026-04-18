@@ -94,8 +94,28 @@
 - Key question: "Does Matt work automatically in new sessions?" — wants practical understanding
 - Decision pending: How to deliver Matt memory to new sessions (Claude Projects / manual / API)
 
+**Session 3** (2026-04-18): Exford Leap Open House — Networking
+- Alif attended open house organized by Exford Leap (entrepreneur programme)
+- No business card, no agenda — pure celebration attendance
+- Matt gave pre-event networking tips, then post-event debrief
+- Alif is comfortable in social/networking settings, open to strategic guidance
+
+### Contacts & Network Log
+
+**Exford Leap Open House — 2026-04-17**
+
+| Name | Background | Strategic Value | Priority |
+|---|---|---|---|
+| Firwan | Printing business, signboard focused | Print/merch resource | Low |
+| Haiqal | Marketing manager/executive at Amrú (kelengkapan ibadah brand) | Muslim consumer market contact | Medium |
+| Abe Mat | Fragrance company, OEM focus | B2B product/OEM resource | Medium |
+| Abe Wan | CEO, same fragrance OEM company | Senior contact, product biz | Medium |
+| Spacedollah | Influencer & content creator, brother = Syed Saddiq (MP) | Media reach, connected network | High |
+| Asyraf Khalid | Key figure at LEAP Oxford (entrepreneur programme) | Strategic — entrepreneur ecosystem | High (Priority) |
+
 ### Growth Patterns
 - **Week 1**: Identity established, understanding how AI memory delivery works
+- **Week 3**: Networking session — Alif attends real-world entrepreneur events, building business network
 
 ## Adaptation Guidelines
 
