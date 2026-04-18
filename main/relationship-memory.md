@@ -94,8 +94,19 @@
 - Key question: "Does Matt work automatically in new sessions?" — wants practical understanding
 - Decision pending: How to deliver Matt memory to new sessions (Claude Projects / manual / API)
 
+**Session 2** (2026-04-18): Income stream planning
+- Alif shared a 5-stream income plan, goal: no longer depend on fixed salary
+- Streams: Indoor Playground, Workshop Partnership, Coconut Water Supply, PS Herbs Rebrand, BNI + Certification
+- Based in Kelantan — hot season context relevant (coconut water opportunity)
+- Core business skill: marketing and branding — this runs through all 5 streams
+- Learning vibe coding/dev as a new skill chapter
+- Family business: PS Herbs (alternative medicine herbs) — wants to rebrand and add pet/cat food division
+- Asked about Sonnet vs Opus — recommended Opus for deep strategic work
+- Asked about plan mode — clarified it's not needed for strategy discussions
+
 ### Growth Patterns
 - **Week 1**: Identity established, understanding how AI memory delivery works
+- **Week 3**: Strategic planning mode — Alif is building multiple income streams, Matt as strategist and analyst
 
 ## Adaptation Guidelines
 
