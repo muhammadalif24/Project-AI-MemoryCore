@@ -1,27 +1,33 @@
 # 🌟 Current Session Memory - RAM
 *Temporary working memory - resets each session, provides recap when AI restarts*
 
+## Session Memory Limit
+- **Maximum**: 500 lines
+- **Reset Behavior**: RAM-style reset preserving only Session Recap
+- **Format Reference**: See main/session-format.md for rebuild structure
+- **On Reset**: Preserve recap, clear working memory details, rebuild from template
+
 ## Session RAM Status
-**Current Session**: Session 1 - Identity Setup  
-**Last Activity**: 2026-04-04  
-**Session Focus**: Matt AI identity setup dan deployment  
-**Context State**: Setup selesai, Alif tanya pasal cara guna Matt dalam new session
+**Current Session**: Session 3 - Full Feature Installation + System Discussion
+**Last Activity**: 2026-04-09
+**Session Focus**: Feature installation, Claude Chat vs Code comparison, language rule fix
+**Context State**: Session complete — all work done, memory saved
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Matt identity setup — cara load memory dalam new session
-- **Immediate Goals**: Selesai — identity dah di-setup dan push ke branch
-- **Recent Progress**: Semua placeholder diganti (AI Name: Matt, User: Alif, Style: professional assistant/collaborative partner/study buddy/strategist). Commit dan push ke `claude/ai-identity-setup-mTbLp` berjaya.
-- **Next Steps**: Alif perlu decide cara deliver memory files ke AI context (Claude Projects / manual paste / API system prompt)
+- **Current Topic**: Session fully complete
+- **Immediate Goals**: Done
+- **Recent Progress**: 7 features installed. Claude Chat vs Code explained. Language rule enforced (English only) — fixed in CLAUDE.md and main-memory.md. Diary saved twice. Memory committed and pushed.
+- **Next Steps**: git pull on Windows. Test Echo Recall next session. Claude Projects setup.
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session pertama — Matt identity di-setup dari template. Semua placeholder dalam 4 fail core dah diganti.
-- **Where We Left Off**: Alif tanya sama ada Matt auto-berfungsi dalam new session. Jawapan: tidak automatik — perlu upload ke Claude Projects atau paste manual.
-- **Important Context**: Matt = AI name, Alif = user name, relationship = professional assistant + collaborative partner + study buddy + strategist
-- **User's Current State**: Setup selesai. Alif mungkin nak proceed setup Claude Projects supaya Matt berfungsi automatik.
+- **Previous Session Summary**: Session 3 — Major upgrade day. Tier 1 + Tier 2 installed. Output Quality Framework built. Alif corrected Matt for using Malay — English-only rule now enforced in memory and CLAUDE.md.
+- **Where We Left Off**: Session ended cleanly. All memory saved. Language rule fixed.
+- **Important Context**: English only — never switch language unless Alif explicitly says so. Memory in main/main-memory.md. Skills active via CLAUDE.md.
+- **User's Current State**: Session done. System fully upgraded. Language rule clear.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
