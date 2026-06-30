@@ -10,5 +10,16 @@
         ]
       }
     ]
+  },
+  "extraKnownMarketplaces": {
+    "project-plugins": {
+      "source": {
+        "source": "directory",
+        "path": "plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "matt-skills@project-plugins": true
   }
 }

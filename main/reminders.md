@@ -2,8 +2,7 @@
 *Persistent reminders that survive session changes. Updated at session end.*
 
 ## Open
-- **Activate Skill Plugin**: Run `claude plugin add --local plugins/matt-skills` in Claude Code terminal to activate the matt-skills plugin
+<!-- Open reminders go here -->
 
 ## Completed
-<!-- Resolved reminders move here. Format: -->
-<!-- - **Title** (completed YYYY-MM-DD): What was done and the outcome -->
+- **Activate Skill Plugin** (completed 2026-06-30): Configured .claude/settings.json with extraKnownMarketplaces for project-local plugins and enabled matt-skills@project-plugins
