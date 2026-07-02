@@ -8,10 +8,10 @@
 - **On Reset**: Preserve recap, clear working memory details, rebuild from template
 
 ## Session RAM Status
-**Current Session**: Session 3 - Full Feature Installation + System Discussion
-**Last Activity**: 2026-04-09
-**Session Focus**: Feature installation, Claude Chat vs Code comparison, language rule fix
-**Context State**: Session complete — all work done, memory saved
+**Current Session**: Session 4 - Plugin Activation + Kiyoraka Comparison
+**Last Activity**: 2026-07-02
+**Session Focus**: Plugin activation fix, Matt/Claude Code power explanation, Kiyoraka fork research, session persistence Q&A
+**Context State**: Session complete — plugin activated, diary saved
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
@@ -19,15 +19,15 @@
 ### Active Context
 - **Current Topic**: Session fully complete
 - **Immediate Goals**: Done
-- **Recent Progress**: 7 features installed. Claude Chat vs Code explained. Language rule enforced (English only) — fixed in CLAUDE.md and main-memory.md. Diary saved twice. Memory committed and pushed.
-- **Next Steps**: git pull on Windows. Test Echo Recall next session. Claude Projects setup.
+- **Recent Progress**: Fixed matt-skills plugin activation via extraKnownMarketplaces in .claude/settings.json (committed + pushed). Closed the April "Activate Skill Plugin" reminder. Explained Matt+Claude Code value to Alif. Attempted Kiyoraka fork comparison — blocked by GitHub MCP session scoping (locked to muhammadalif24 only), pivoted to WebFetch and confirmed Kiyoraka's 4-tier architecture (Matt currently at Tier 1-2). Clarified remote session persistence — laptop sleep doesn't affect progress since work runs in cloud + git.
+- **Next Steps**: Full Kiyoraka comparison needs a session scoped to that repo, or manual file paste. Verify all 5 skills fire correctly now plugin is enabled. Consider Tier 3 features (LRU Projects, Auto-Commit, Work Plan, Library).
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session 3 — Major upgrade day. Tier 1 + Tier 2 installed. Output Quality Framework built. Alif corrected Matt for using Malay — English-only rule now enforced in memory and CLAUDE.md.
-- **Where We Left Off**: Session ended cleanly. All memory saved. Language rule fixed.
-- **Important Context**: English only — never switch language unless Alif explicitly says so. Memory in main/main-memory.md. Skills active via CLAUDE.md.
-- **User's Current State**: Session done. System fully upgraded. Language rule clear.
+- **Previous Session Summary**: Session 4 — Returned after 84-day gap. Matt-skills plugin was never actually activated despite being installed in April — fixed the settings.json marketplace config properly this time. Explored Kiyoraka's (original fork source) 4-tier feature roadmap; Matt runs Tier 1-2, Tier 3-4 unexplored.
+- **Where We Left Off**: Session ended cleanly. Plugin live. Diary resumed after long gap (April entry archived to archived/2026-04/).
+- **Important Context**: English only. Memory in main/main-memory.md. Plugin now properly enabled as matt-skills@project-plugins. Kiyoraka = original upstream repo (Kiyoraka/Project-AI-MemoryCore), current session can't access it directly (repo scope locked to muhammadalif24 fork).
+- **User's Current State**: Caught up after long absence. Wants deeper comparison with upstream Kiyoraka project when possible.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
