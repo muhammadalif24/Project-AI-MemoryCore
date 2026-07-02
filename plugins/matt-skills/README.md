@@ -31,7 +31,18 @@ matt-skills/
 | log-decision | "log decision", non-obvious choices detected | Append-only decision log with rationale |
 | echo-recall | "do you remember", "recall", "when did we" | Search diary and narrate past sessions |
 
-## Installation
-```bash
-claude plugin add --local plugins/matt-skills
+## How It Works
+
+Skills are auto-discovered by Claude Code through the repo structure. No installation command needed — just reference them in CLAUDE.md and they're active:
+
+```yaml
+## Active Skills
+The following skills are installed in `plugins/matt-skills/skills/`. Apply them automatically:
+- **save-memory** → triggers on "save", "save memory", "update memory"
+- **save-diary** → triggers on "save diary", "write diary", "document session"
+- **check-reminders** → triggers at session start and on "remind me", "check reminders"
+- **log-decision** → triggers on non-obvious decisions, "log decision", "why did we choose"
+- **echo-recall** → triggers on "do you remember", "recall", "when did we", "check history"
 ```
+
+**Works on**: Claude Code web + browser. No Windows CLI activation needed.
