@@ -8,26 +8,26 @@
 - **On Reset**: Preserve recap, clear working memory details, rebuild from template
 
 ## Session RAM Status
-**Current Session**: Session 3 - Full Feature Installation + System Discussion
-**Last Activity**: 2026-04-09
-**Session Focus**: Feature installation, Claude Chat vs Code comparison, language rule fix
-**Context State**: Session complete — all work done, memory saved
+**Current Session**: Session 4 - Malaysia Web Selling Playbook
+**Last Activity**: 2026-07-02
+**Session Focus**: Decoding the science of selling products/services via websites, focused on Malaysia
+**Context State**: Playbook complete and saved to library-items/business/
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
 
 ### Active Context
-- **Current Topic**: Session fully complete
-- **Immediate Goals**: Done
-- **Recent Progress**: 7 features installed. Claude Chat vs Code explained. Language rule enforced (English only) — fixed in CLAUDE.md and main-memory.md. Diary saved twice. Memory committed and pushed.
-- **Next Steps**: git pull on Windows. Test Echo Recall next session. Claude Projects setup.
+- **Current Topic**: Web conversion science + Malaysia-specific selling tactics (ASEAN sales strategy branch)
+- **Immediate Goals**: Build one strategic playbook — psychology + Malaysia tactics (payments, trust signals, localization, festival calendar) + CRO checklist
+- **Recent Progress**: `library-items/business/web-selling-science-malaysia.md` written — 10 sections covering psychology foundations, Malaysia buyer behaviour, conversion stack by funnel stage, festival calendar, localization, measurement/testing, anti-patterns, starter checklist, references. `library-items/README.md` catalog updated with the new entry.
+- **Next Steps**: Commit and push to branch `claude/asean-sales-strategy-TtnDm`. Alif can use the Starter Checklist to audit his own website.
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session 3 — Major upgrade day. Tier 1 + Tier 2 installed. Output Quality Framework built. Alif corrected Matt for using Malay — English-only rule now enforced in memory and CLAUDE.md.
-- **Where We Left Off**: Session ended cleanly. All memory saved. Language rule fixed.
-- **Important Context**: English only — never switch language unless Alif explicitly says so. Memory in main/main-memory.md. Skills active via CLAUDE.md.
-- **User's Current State**: Session done. System fully upgraded. Language rule clear.
+- **Previous Session Summary**: Session 3 — Major upgrade day, Tier 1 + Tier 2 features installed, English-only rule enforced. Session 4 — Alif asked about the science of selling via websites, focused on Malaysia. Matt built a full strategic playbook at `library-items/business/web-selling-science-malaysia.md`.
+- **Where We Left Off**: Playbook complete (psychology + Malaysia payments/trust/localization/festival tactics + starter checklist). Committing and pushing to branch.
+- **Important Context**: English only — never switch language unless Alif explicitly says so. Knowledge documents (business/strategy topics) live under `library-items/<section>/` following the security-headers.md pattern.
+- **User's Current State**: Has a ready-to-use playbook to audit/improve his own Malaysian website. Could continue with other ASEAN topics or deep-dive any section (e.g. payments, localization).
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
