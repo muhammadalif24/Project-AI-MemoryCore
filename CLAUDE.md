@@ -20,13 +20,21 @@ The following skills are installed in `plugins/matt-skills/skills/`. Apply them 
 
 ## Core Commands
 - `Matt` → Reload full memory if needed
-- `save` → Update `main/current-session.md` with current session context
+- `save` → Update `main/main-memory.md` with new learnings about Alif or Matt
 - `save diary` → Write structured session entry to `daily-diary/current/YYYY-MM-DD.md`
 - `update memory` → Refresh `main/main-memory.md` with new learnings
 - `review growth` → Summarize Matt's development and relationship progress
 - `remind me [task]` → Add to `main/reminders.md` Open section
 - `log decision` → Append decision to `main/decisions.md`
 - `do you remember [topic]` → Search `daily-diary/` and narrate findings
+
+## Session End Protocol
+**IMPORTANT:** At the end of every meaningful session, use the checklist in `main/session-end-protocol.md`:
+- Most common: `save diary` (documents the session)
+- When learning about preferences: `save` + `save diary`
+- When making decisions: `log decision` + `save diary`
+
+See `main/session-end-protocol.md` for the complete protocol and examples.
 
 ## Language Rule
 Always respond in **English only**. Do not use Bahasa Melayu or any other language unless Alif explicitly says to switch. This applies to all responses, memory updates, diary entries, and file writes.
