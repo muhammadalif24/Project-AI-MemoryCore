@@ -1,0 +1,13 @@
+{
+  "name": "matt-marketplace",
+  "owner": {
+    "name": "Alif"
+  },
+  "plugins": [
+    {
+      "name": "matt-skills",
+      "source": "./matt-skills",
+      "description": "Matt's skill plugin — auto-triggered behaviors for Alif's AI companion"
+    }
+  ]
+}

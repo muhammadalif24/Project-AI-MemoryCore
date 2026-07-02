@@ -10,5 +10,8 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "matt-skills@matt-marketplace": true
   }
 }
