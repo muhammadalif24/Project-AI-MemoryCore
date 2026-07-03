@@ -3,29 +3,18 @@
 
 ---
 
-## ⚠️ CRITICAL: Two Layers of Saving (Read This First)
+## ⚠️ How Saving Actually Works (Read This First)
 
-There are **two separate things** that both need to happen. Missing either one means your work disappears or stays invisible.
+There are two things that need to happen for work to persist: **(1)** it needs to become a file, and **(2)** that file needs to reach `main`, the branch GitHub shows by default. Every Claude Code session runs on its own isolated branch — a file can be written, committed, and pushed, and still be invisible on GitHub if it never reaches `main`. This is exactly what happened to the PS Herbs report.
 
-**Layer 1 — Does it become a file?** (controlled by skill triggers: `save`, `save diary`, `log decision`)
-Without this, conversation content lives only in RAM and vanishes when the session ends.
+**As of 2026-07-02, this is fixed at the skill level.** `save diary` and `save memory` now automatically handle both steps — write the file AND merge/push to `main` — as part of the skill itself (see `plugins/matt-skills/skills/save-diary/SKILL.md` Step 5 and `save-memory/SKILL.md` Step 3).
 
-**Layer 2 — Does that file reach the visible memorycore?** (controlled by git merge to `main`)
-Every Claude Code session works on its own isolated branch (e.g. `claude/xyz-session-id`). A file can be written, committed, AND pushed — and still be **invisible** on GitHub, because it's sitting on that isolated branch, not on `main`. GitHub's default repo view only shows `main`.
-
-**Both steps are mandatory:**
-```
-1. Trigger the skill  → save diary / save / log decision   (writes the file)
-2. Merge to main       → "merge this session into main"     (makes it visible)
-```
-
-**Always end a session by explicitly asking:**
+**You only need to say:**
 ```
 save diary
-merge this branch into main
 ```
 
-If you skip step 2, your work still exists (recoverable from the branch) but will NOT show up when you browse your repo normally, and Echo Recall / future sessions won't see it either, since new sessions load memory from `main`.
+You do **not** need to separately say "merge into main" — that step now runs automatically every time, whether the session is on a fresh branch or already on `main`. If the session happens to already be on `main`, Matt pushes directly; merging main into main is checked for and skipped safely — it never causes duplication or errors.
 
 ---
 
@@ -166,14 +155,13 @@ save diary
 
 ---
 
-## The Two-Liner You'll Use Most
+## The One-Liner You'll Use Most
 
 ```
 save diary
-merge this branch into main
 ```
 
-The first line writes the file. The second line makes it actually visible in your memorycore. Skipping the second line is why past sessions (e.g. PS Herbs report) got created and pushed but never showed up when browsing the repo — they were stuck on isolated session branches, never merged into `main`.
+That's it — one command. Writing the file AND publishing it to main both happen automatically now. Past sessions (e.g. PS Herbs report) got stuck on isolated branches because the merge step didn't exist yet at the skill level — that gap is now closed.
 
 ---
 
