@@ -62,22 +62,6 @@ When this skill activates, output:
   - Next steps identified
 - [ ] Confirm diary entry saved with timestamp
 
-### Step 5: Publish to Main (MANDATORY — do not skip)
-- [ ] Commit all changed files (diary + current-session.md, and any other files touched this session)
-- [ ] Check current branch: `git branch --show-current`
-- [ ] **If already on `main`**: push directly — `git push origin main`
-- [ ] **If on any other branch** (e.g. `claude/xyz-session-id`): push that branch, then merge into main:
-  ```bash
-  git push origin <current-branch>
-  git checkout main
-  git merge <current-branch>
-  git push origin main
-  ```
-- [ ] Merging main into main (already-on-main case) is a safe no-op if attempted by mistake — git reports "already up to date," nothing breaks
-- [ ] Confirm to user: "Saved and merged into main — visible in your memorycore now."
-
-**Why this step exists**: writing/committing/pushing a file alone is NOT enough — every Claude Code session runs on its own isolated branch. Without this step, the diary entry would be invisible on GitHub's default `main` view, exactly like the PS Herbs report that went missing. This step must run automatically on every `save diary` — the user should never need to separately ask "merge this branch into main."
-
 ## Mandatory Rules
 1. **Always APPEND** — never overwrite existing diary entries
 2. **One file per day** — multiple entries separated by `---`
@@ -85,7 +69,6 @@ When this skill activates, output:
 4. **Archive first** — run monthly archive check before every write
 5. **Evidence-based** — document actual session content, not generic summaries
 6. **Follow existing protocol** — use `daily-diary/daily-diary-protocol.md` for entry structure
-7. **Always publish to main** — Step 5 is not optional. "save diary" alone must be sufficient; never depend on the user remembering a separate merge command.
 
 ## Edge Cases
 

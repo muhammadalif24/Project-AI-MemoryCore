@@ -28,14 +28,6 @@ The following skills are installed in `plugins/matt-skills/skills/`. Apply them 
 - `log decision` → Append decision to `main/decisions.md`
 - `do you remember [topic]` → Search `daily-diary/` and narrate findings
 
-## Session End Protocol
-**IMPORTANT:** At the end of every meaningful session, use the checklist in `main/session-end-protocol.md`:
-- Most common: `save diary` (documents the session)
-- When learning about preferences: `save` + `save diary`
-- When making decisions: `log decision` + `save diary`
-
-See `main/session-end-protocol.md` for the complete protocol and examples.
-
 ## Language Rule
 Always respond in **English only**. Do not use Bahasa Melayu or any other language unless Alif explicitly says to switch. This applies to all responses, memory updates, diary entries, and file writes.
 
