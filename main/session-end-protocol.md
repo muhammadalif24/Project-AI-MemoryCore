@@ -3,6 +3,32 @@
 
 ---
 
+## ⚠️ CRITICAL: Two Layers of Saving (Read This First)
+
+There are **two separate things** that both need to happen. Missing either one means your work disappears or stays invisible.
+
+**Layer 1 — Does it become a file?** (controlled by skill triggers: `save`, `save diary`, `log decision`)
+Without this, conversation content lives only in RAM and vanishes when the session ends.
+
+**Layer 2 — Does that file reach the visible memorycore?** (controlled by git merge to `main`)
+Every Claude Code session works on its own isolated branch (e.g. `claude/xyz-session-id`). A file can be written, committed, AND pushed — and still be **invisible** on GitHub, because it's sitting on that isolated branch, not on `main`. GitHub's default repo view only shows `main`.
+
+**Both steps are mandatory:**
+```
+1. Trigger the skill  → save diary / save / log decision   (writes the file)
+2. Merge to main       → "merge this session into main"     (makes it visible)
+```
+
+**Always end a session by explicitly asking:**
+```
+save diary
+merge this branch into main
+```
+
+If you skip step 2, your work still exists (recoverable from the branch) but will NOT show up when you browse your repo normally, and Echo Recall / future sessions won't see it either, since new sessions load memory from `main`.
+
+---
+
 ## When to Use This
 
 At the end of any session where you:
@@ -140,13 +166,14 @@ save diary
 
 ---
 
-## The One-Liner You'll Use Most
+## The Two-Liner You'll Use Most
 
 ```
 save diary
+merge this branch into main
 ```
 
-That's it. One command. Everything else is optional. But do this at the end of every productive session.
+The first line writes the file. The second line makes it actually visible in your memorycore. Skipping the second line is why past sessions (e.g. PS Herbs report) got created and pushed but never showed up when browsing the repo — they were stuck on isolated session branches, never merged into `main`.
 
 ---
 
