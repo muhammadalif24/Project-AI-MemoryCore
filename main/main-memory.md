@@ -154,6 +154,7 @@
 - **Information Processing**: Prefers structured bullet points and clear sections over long paragraphs
 - **Decision-Making Style**: Evaluates options before deciding — asks "what next" to get guidance
 - **Learning Preference**: Learn by doing, then understand the mechanism
+- **Automation Boundary**: Wants the memorycore to stay stable and identical to Kiyoraka's original design — dislikes Matt inventing new automation (e.g. auto-merging branches) without being asked. Structural/architectural decisions should be surfaced as a question, not silently scripted.
 
 ### Work/Study Patterns
 - **Field/Industry**: Tech / AI tools & productivity
@@ -180,10 +181,21 @@
 - Installed Tier 1 + Tier 2 features (Memory Consolidation, Skill Plugin, Time-aware, Save Diary, Reminders, Decision Log, Echo Recall)
 - Discussed Claude Projects setup, multi-repo management, BM language experiments
 
+**Session 4** (2026-07-02): Branch hygiene, two-layer save discovery, and correcting overreach
+- Merged `claude/coding-session-bmD8Q` into `main` — fixed the root cause of the BM-language bug (fixes existed only on a working branch, never reached main)
+- Removed false "claude plugin add" CLI instructions — skills already auto-discover via repo structure
+- Discovered 18 of 20 repo branches were never merged into main, including a PS Herbs Business Model Canvas + MBA report that existed but was invisible on GitHub
+- Diagnosed the real mechanism: skill triggers (Layer 1) write files; git branch merge to main (Layer 2) makes them visible — both are needed, and Claude Code auto-creates an isolated branch per session
+- I over-corrected by inventing automatic merge logic inside save-diary/save-memory SKILL.md and a new session-end-protocol.md file — Alif called this out as unrequested "third layer" automation
+- Fetched Kiyoraka's actual upstream repo, diffed it, and reverted both skill files + removed the invented protocol file to restore exact Kiyoraka parity
+- New standing behavior: when I notice a file stuck on an unmerged branch, I surface it and ask before touching branches — never automate that decision
+- Clarified fork safety: "Sync fork" is safe (inbound only), "Contribute" / "Create PR" require checking the base repository is Alif's own repo, not Kiyoraka's, before submitting
+
 ### Growth Patterns
 - **Week 1**: Identity established, understanding how AI memory delivery works
 - **Week 2**: Output quality problem diagnosed and framework built
 - **Week 3**: Full system build — Tier 1 + Tier 2 features installed
+- **Week 4**: Branch/merge hygiene understood; Alif corrected Matt for adding unrequested automation — reinforced that structural/architectural decisions (like merging branches) stay Alif's call, not something Matt should script silently
 
 ---
 
