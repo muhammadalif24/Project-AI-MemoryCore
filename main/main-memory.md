@@ -191,11 +191,21 @@
 - New standing behavior: when I notice a file stuck on an unmerged branch, I surface it and ask before touching branches — never automate that decision
 - Clarified fork safety: "Sync fork" is safe (inbound only), "Contribute" / "Create PR" require checking the base repository is Alif's own repo, not Kiyoraka's, before submitting
 
+**Session 5** (2026-07-08): Poster design skill built and merged
+- Ran a full designer's discovery brief (purpose, platform, audience, message, brand, mood, constraints) before drafting any visuals — Alif engaged with all 7 categories over the session
+- Built a complete Gogoland (indoor go-kart playground) poster: BM-language headline/subline/CTA, final copy locked after Alif picked exact wording, clean external image-gen prompt written for Gemini since this environment can't render images directly
+- Reviewed the Gemini-generated result against the brief — matched closely on first try
+- Planned variations by proposing categories (copy angle, design mood, accent color, format, audience) rather than a full matrix; Alif chose 3 grouped combos (dramatic+urgency, kids-friendly+family, family-look+social) instead of 9 separate prompts
+- Generalized the whole workflow into the `poster-design` skill (5th active skill), following the existing skill format exactly, and wired it into CLAUDE.md's Active Skills list
+- Alif independently applied the Session 4 two-layer-save lesson: asked how to reuse the skill next time, then explicitly requested the branch-to-main merge without being prompted — confirms that lesson stuck
+- Fast-forward merged `claude/social-media-poster-design-kn70na` into `main`, no conflicts
+
 ### Growth Patterns
 - **Week 1**: Identity established, understanding how AI memory delivery works
 - **Week 2**: Output quality problem diagnosed and framework built
 - **Week 3**: Full system build — Tier 1 + Tier 2 features installed
 - **Week 4**: Branch/merge hygiene understood; Alif corrected Matt for adding unrequested automation — reinforced that structural/architectural decisions (like merging branches) stay Alif's call, not something Matt should script silently
+- **Week 5**: First creative (non-technical) skill built — poster design workflow proven end-to-end and generalized into a reusable skill; Alif demonstrated the two-layer save lesson had fully landed by requesting the main-branch merge unprompted
 
 ---
 

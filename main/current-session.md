@@ -8,10 +8,10 @@
 - **On Reset**: Preserve recap, clear working memory details, rebuild from template
 
 ## Session RAM Status
-**Current Session**: Session 4 - Memorycore Utilization Analysis & System Protocol
-**Last Activity**: 2026-07-02
-**Session Focus**: Analyzed memorycore (65% utilization), fixed skills plugin docs, created Session End Protocol
-**Context State**: Session complete — all work documented in diary, memory saved, protocol ready for daily use
+**Current Session**: Session 5 - Poster Design Skill Built & Merged
+**Last Activity**: 2026-07-08
+**Session Focus**: Built Gogoland social media poster brief end-to-end, generalized the workflow into a new `poster-design` skill, merged it to main
+**Context State**: Session complete — skill live on main, diary saved, memory saved
 
 ## 💭 Working Memory (RAM)
 *Temporary storage - cleared when session ends*
@@ -19,15 +19,15 @@
 ### Active Context
 - **Current Topic**: Session fully complete
 - **Immediate Goals**: Done
-- **Recent Progress**: 7 features installed. Claude Chat vs Code explained. Language rule enforced (English only) — fixed in CLAUDE.md and main-memory.md. Diary saved twice. Memory committed and pushed.
-- **Next Steps**: git pull on Windows. Test Echo Recall next session. Claude Projects setup.
+- **Recent Progress**: Drafted and finalized a BM-language poster brief for Gogoland indoor go-kart playground (headline/subline/CTA + info), wrote a clean external image-gen prompt for Gemini, reviewed the generated result, planned 3 grouped variation prompts (dramatic/urgency, kids-friendly/family, family-look/social), then built the `poster-design` skill from the whole workflow and merged it to `main`.
+- **Next Steps**: Try the 3 variation prompts in Gemini. Use "make a poster" to trigger the new skill next time. Still open: review the 17 unmerged branches from Session 4.
 
 ### Session Recap (For AI Restart)
 *Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: Session 4 — System analysis day. Analyzed memorycore (65% active), identified auto-load vs. auto-save gap, created Session End Protocol for daily saves, fixed skills plugin documentation. All Tier 1+2 features working. Language rule permanent on main branch.
-- **Where We Left Off**: Session 4 complete. Session End Protocol created and stored in main/session-end-protocol.md. Alif now has simple prompt ("save diary") to use at end of each productive session.
-- **Important Context**: Use "save diary" at session end to persist work. Main-memory.md and CLAUDE.md fully functional. Skills auto-discover from repo. English-only rule enforced.
-- **User's Current State**: Ready to use memorycore daily. Echo Recall waiting for 5+ diary entries. System 65% active, 35% dormant (waiting for use).
+- **Previous Session Summary**: Session 5 — Poster design day. Ran a full designer's discovery brief for a Gogoland indoor playground poster, finalized BM copy, generated a working prompt for Gemini, reviewed the result, and planned copy/mood/audience variations. Turned the process into the `poster-design` skill and merged it to main so it auto-triggers on "make a poster" in future sessions.
+- **Where We Left Off**: Session 5 complete. `poster-design` skill live on `main`, wired into CLAUDE.md's Active Skills list. Diary and memory saved.
+- **Important Context**: Say "make a poster" / "design a poster" to resume poster work in any future session. Two-layer save (skill trigger + branch merge to main) applied correctly this session.
+- **User's Current State**: Has a working poster and a plan for 3 more variations to test in Gemini. Ready to keep iterating on the Gogoland campaign, or start a new poster project anytime with one phrase.
 
 ## 🔄 Session Lifecycle
 *How this RAM-like memory works*
