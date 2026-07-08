@@ -30,6 +30,7 @@ matt-skills/
 | check-reminders | Session start, "remind me", "check reminders" | Manage persistent cross-session reminders |
 | log-decision | "log decision", non-obvious choices detected | Append-only decision log with rationale |
 | echo-recall | "do you remember", "recall", "when did we" | Search diary and narrate past sessions |
+| poster-design | "design a poster", "make a poster", "poster for social media" | Discovery questions → core message draft → clean image-gen prompt → variations |
 
 ## How It Works
 

@@ -17,6 +17,7 @@ The following skills are installed in `plugins/matt-skills/skills/`. Apply them 
 - **check-reminders** → triggers at session start and on "remind me", "check reminders"
 - **log-decision** → triggers on non-obvious decisions, "log decision", "why did we choose"
 - **echo-recall** → triggers on "do you remember", "recall", "when did we", "check history"
+- **poster-design** → triggers on "design a poster", "make a poster", "create a poster", "poster for social media"
 
 ## Core Commands
 - `Matt` → Reload full memory if needed
